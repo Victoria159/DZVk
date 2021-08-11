@@ -11,6 +11,8 @@ public class Post {
     private LikesInfo likesInfo; //лайки
     private RepostsInfo repostsInfo; // репосты
     private int view; // просмотры
+    private int fromId;
+    private String postType;
 
     public String getId() {
         return id;
@@ -92,4 +94,19 @@ public class Post {
         this.view = view;
     }
 
+    public int getFromId() {
+        return fromId;
+    }
+
+    public void setFromId(int fromId) {
+        this.fromId = fromId;
+    }
+
+    public String getPostType() {
+        return postType;
+    }
+
+    public void setPostType(String postType) {
+        this.postType = postType;
+    }
 }

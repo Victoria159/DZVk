@@ -8,6 +8,7 @@ public class Information {
     private String address;
     private Boolean detailed;
 
+
     public String getId() {
         return id;
     }

@@ -5,6 +5,9 @@ public class CommentsInfo {
     private boolean canPost; // возможность отправить комментарии
     private int dateComments; // время и дата комментария
     private String textComments; // текст комментария
+    private int groupsCanPost;
+    private boolean canClose;
+    private boolean canOpen;
 
     public int getCountComments() {
         return countComments;
@@ -38,5 +41,27 @@ public class CommentsInfo {
         this.textComments = textComments;
     }
 
+    public int getGroupsCanPost() {
+        return groupsCanPost;
+    }
 
+    public void setGroupsCanPost(int groupsCanPost) {
+        this.groupsCanPost = groupsCanPost;
+    }
+
+    public boolean isCanClose() {
+        return canClose;
+    }
+
+    public void setCanClose(boolean canClose) {
+        this.canClose = canClose;
+    }
+
+    public boolean isCanOpen() {
+        return canOpen;
+    }
+
+    public void setCanOpen(boolean canOpen) {
+        this.canOpen = canOpen;
+    }
 }
