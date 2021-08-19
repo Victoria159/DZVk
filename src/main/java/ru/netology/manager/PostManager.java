@@ -12,11 +12,11 @@ public class PostManager {
     private int postId;
 
 
-    public Post[] WallSearch(int idOwner, String address, String query, boolean idOwnersOnly, int count) {
+    public Post[] WallSearch(int ownerId, String address, String query, boolean ownersOnlyId, int count) {
 //        add logic
         return null;
     }
-    public void WallDelete(int idOwner, int idPost){
+    public void WallDelete(int ownerId, int postId){
 
     }
 }
